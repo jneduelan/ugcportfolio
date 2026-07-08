@@ -19,11 +19,3 @@ navToggle.addEventListener('click', () => {
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => siteHeader.classList.remove('nav-open'));
 });
-
-// Subscribe form placeholder (no backend wired up yet)
-const subscribeForm = document.getElementById('subscribeForm');
-subscribeForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert('[Hook this form up to your email list provider, e.g. Mailchimp or ConvertKit, when ready.]');
-  subscribeForm.reset();
-});

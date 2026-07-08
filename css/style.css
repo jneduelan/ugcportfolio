@@ -75,7 +75,6 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 
 .btn--light { background: #f4efe4; color: var(--ink); }
 .btn--dark { background: var(--ink); color: #f4efe4; }
-.btn--outline-light { background: transparent; color: #f4efe4; border-color: rgba(244,239,228,0.5); margin-top: 14px; }
 .arrow { font-size: 1rem; }
 
 /* ============ NAV ============ */
@@ -450,24 +449,6 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 .contact-box h2 { color: #f9f6ee; margin-bottom: 12px; }
 .contact-box p { color: #d8d2c2; margin-bottom: 24px; }
 
-.subscribe-form {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 6px;
-}
-
-.subscribe-form input {
-  flex: 1;
-  padding: 13px 16px;
-  border-radius: 999px;
-  border: 1px solid rgba(244,239,228,0.3);
-  background: transparent;
-  color: #f4efe4;
-  font-family: var(--sans);
-  font-size: 0.85rem;
-}
-.subscribe-form input::placeholder { color: rgba(244,239,228,0.5); }
-
 /* ============ FOOTER ============ */
 .site-footer {
   background: var(--dark);
@@ -539,6 +520,4 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   }
 
   .nav { flex-wrap: wrap; }
-  .subscribe-form { flex-direction: column; }
-  .subscribe-form .btn { width: 100%; justify-content: center; }
 }
