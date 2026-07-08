@@ -255,6 +255,15 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   right: 0;
 }
 
+.tile-video {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: #000;
+  margin-bottom: 14px;
+}
+
 .img-placeholder--cinematic {
   background: linear-gradient(160deg, #2b241d 0%, #171310 100%);
   border-color: rgba(244, 239, 228, 0.15);
