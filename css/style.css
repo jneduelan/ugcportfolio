@@ -140,8 +140,8 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 /* ============ HERO ============ */
 .hero {
   position: relative;
-  height: 92vh;
-  min-height: 560px;
+  height: 78vh;
+  min-height: 480px;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
