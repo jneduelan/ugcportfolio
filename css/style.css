@@ -288,6 +288,19 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 
 .work-group--lifestyle { background: var(--cream-dark); }
 
+.status-note {
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 520px;
+}
+.status-note p { margin: 0; }
+
 .group-head {
   max-width: 640px;
   margin-bottom: 32px;
