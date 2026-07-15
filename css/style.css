@@ -301,6 +301,14 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 }
 .status-note p { margin: 0; }
 
+.lifestyle-row {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px) 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.lifestyle-row .status-note { max-width: none; height: 100%; justify-content: center; }
+
 .group-head {
   max-width: 640px;
   margin-bottom: 32px;
@@ -501,6 +509,8 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   .about-grid { grid-template-columns: 1fr; }
   .about-portrait { margin: 0 auto; }
   .contact-box { margin: 20px; max-width: none; }
+  .lifestyle-row { grid-template-columns: 1fr; }
+  .lifestyle-video-item { max-width: 300px; }
 }
 
 @media (max-width: 480px) {
