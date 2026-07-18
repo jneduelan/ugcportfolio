@@ -312,14 +312,7 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   max-width: 520px;
 }
 .status-note p { margin: 0; }
-
-.lifestyle-row {
-  display: grid;
-  grid-template-columns: minmax(200px, 300px) 1fr;
-  gap: 28px;
-  align-items: start;
-}
-.lifestyle-row .status-note { max-width: none; height: 100%; justify-content: center; }
+.status-note--spaced { margin-top: 24px; }
 
 .group-head {
   max-width: 640px;
@@ -334,6 +327,7 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 }
 .gallery-strip--4 { grid-template-columns: repeat(4, 1fr); }
 .gallery-strip--3 { grid-template-columns: repeat(3, 1fr); }
+.gallery-strip--2 { grid-template-columns: repeat(2, 1fr); }
 
 .gallery-item figcaption {
   display: flex;
@@ -524,8 +518,6 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   .about-grid { grid-template-columns: 1fr; }
   .about-portrait { margin: 0 auto; }
   .contact-box { margin: 20px; max-width: none; }
-  .lifestyle-row { grid-template-columns: 1fr; }
-  .lifestyle-video-item { max-width: 300px; }
 }
 
 @media (max-width: 480px) {
