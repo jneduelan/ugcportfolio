@@ -183,6 +183,18 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   margin: 0 auto 28px;
 }
 
+.hero-email {
+  margin-top: 14px;
+  font-size: 0.85rem;
+}
+.hero-email a {
+  color: #e9e4d8;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(233,228,216,0.4);
+  padding-bottom: 1px;
+}
+.hero-email a:hover { color: #f9f6ee; border-bottom-color: #f9f6ee; }
+
 /* ============ IMAGE PLACEHOLDERS ============ */
 .img-placeholder {
   position: relative;
@@ -422,6 +434,8 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   font-size: 1rem;
   color: var(--ink);
 }
+.fact-value a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
+.fact-value a:hover { border-bottom-color: var(--ink); }
 
 /* ============ SERVICES ============ */
 .section--services { background: var(--dark); color: #e9e4d8; }
