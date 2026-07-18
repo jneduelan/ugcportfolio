@@ -411,6 +411,7 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 8px;
+  background: #000;
 }
 
 .about-facts {
