@@ -251,12 +251,9 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 
 .gallery-strip {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 264px));
   gap: 20px;
 }
-.gallery-strip--4 { grid-template-columns: repeat(4, 1fr); }
-.gallery-strip--3 { grid-template-columns: repeat(3, 1fr); }
-.gallery-strip--compact { grid-template-columns: repeat(auto-fit, minmax(200px, 264px)); }
 
 .gallery-item figcaption {
   display: flex;
