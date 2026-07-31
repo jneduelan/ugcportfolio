@@ -373,11 +373,26 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 .trusted-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  gap: 34px 52px;
+  gap: 28px 48px;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.trusted-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.trusted-name {
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #b8a98e;
 }
 
 .trusted-logo {
