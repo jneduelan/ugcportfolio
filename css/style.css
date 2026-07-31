@@ -370,38 +370,70 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
   margin-bottom: 36px;
 }
 
-.trusted-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  max-width: 880px;
+.trusted-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 34px 52px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.trusted-badge {
-  background: var(--cream);
-  color: var(--ink);
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 0.92rem;
-  text-align: center;
-  padding: 22px 14px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.3;
-}
-
-.trusted-badge img {
-  max-width: 100%;
-  max-height: 40px;
+.trusted-logo {
+  height: 30px;
+  width: auto;
+  max-width: 130px;
   object-fit: contain;
+  border-radius: 5px;
+  opacity: 0.88;
+  filter: grayscale(12%);
+  transition: opacity 0.2s ease, filter 0.2s ease;
 }
 
-.trusted-badge--dark {
-  background: var(--dark-card);
+.trusted-logo:hover {
+  opacity: 1;
+  filter: none;
 }
+
+.trusted-logo--mono {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+.trusted-logo--mono:hover {
+  opacity: 1;
+}
+
+.trusted-logo--card {
+  height: 24px;
+  border-radius: 4px;
+}
+
+.trusted-word {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #cdc4b0;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.trusted-word:hover {
+  opacity: 1;
+}
+
+.trusted-word--swipespace {
+  font-family: var(--sans);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: -0.01em;
+}
+
+.trusted-word-a { color: #f2eee2; }
+.trusted-word-b { color: #b09bf5; }
 
 /* ============ SERVICES ============ */
 .section--services { background: var(--dark); color: #e9e4d8; }
