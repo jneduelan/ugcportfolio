@@ -358,6 +358,9 @@ p { color: var(--ink-soft); font-size: 0.95rem; }
 .fact-value a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); }
 .fact-value a:hover { border-bottom-color: var(--ink); }
 
+.inline-link { color: inherit; text-decoration: none; border-bottom: 1px solid currentColor; }
+.inline-link:hover { opacity: 0.7; }
+
 /* ============ TRUSTED BY ============ */
 .section--trusted { background: var(--dark); padding: 72px 0; }
 
